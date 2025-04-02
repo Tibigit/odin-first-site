@@ -8,6 +8,7 @@
 
 ul {
     display: flex;
+    align-items: center;
     margin: 0px;
     padding: 0px;
     list-style-type: none;
@@ -21,6 +22,8 @@ a {
 
 .logo{
     flex-shrink: 0;
+    font-size: 24px;
+    font-weight: 900;
 }
 /* END OF HEADER SECTION */
 
@@ -31,6 +34,7 @@ a {
     background-color: slateblue;
     padding: 32px 32px 32px 32px;
     justify-content: center;
+    align-items: center;
     gap: 32px;
 }
 
@@ -44,6 +48,14 @@ a {
     border: 4px solid #1b1652;
     border-radius: 10px;
 }
+
+.sub-header-content button {
+    color: white;
+    background-color: indigo;
+    border: 2px solid black;
+    border-radius: 4px;
+    padding: 4px 16px;
+}
 /* END OF SUB-HEADER SECTION */
 
 
@@ -53,6 +65,7 @@ body {
     flex-direction: column;
     margin: 0;
     min-height: 100vh;
+    font-family:'Courier New', Courier, monospace;
 }
 
 .content{
@@ -106,11 +119,13 @@ h3 {
 
 .quote-txt {
     max-width: 400px;
+    font-style: italic;
 }
 
 .signup-prompt {
     display: flex;
     background-color: cornflowerblue;
+    color: white;
     min-width: 50vw;
     align-items: center;
     justify-content: space-evenly;
@@ -120,12 +135,25 @@ h3 {
 }
 
 .signup-text p {
+    display: flex;
     margin: 6px;
+}
+
+.first-p {
+    font-size: 16px;
+}
+
+.second-p {
+    font-size: 12px;
 }
 
 .signup-prompt button {
     height: 28px;
     width: 96px;
+    color: white;
+    background-color: cornflowerblue;
+    border: 2px solid white;
+    border-radius: 4px;
 }
 /* END OF BODY SECTION */
 
